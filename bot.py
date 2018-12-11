@@ -54,7 +54,7 @@ def empty_query(query):
 	data = db.search(client_id,d)
 	articles = []
 	for i,f in enumerate(data):
-		a =  telebot.types.InlineQueryResultCachedVoice(id=str(i),title=f[1],voice_file_id=f[0])
+		a =  telebot.types.InlineQueryResultCachedVoice(id=str(i),title=f[1],voice_file_id=f[0],parse_mode='Markdown')
 		articles.append(a)
 
 	#a = telebot.types.InlineQueryResultArticle('1',"Title",description="description",input_message_content=telebot.types.InputTextMessageContent(message_text='text'))
