@@ -3,12 +3,12 @@ from sql import DataBase
 import keyboards
 import requests
 db = DataBase('Audio.sql')
-ip = '90.84.240.81'
-port = '3128'
+#ip = '90.84.240.81'
+#port = '3128'
 furl_template = 'https://api.telegram.org/file/bot{}/{}'
-telebot.apihelper.proxy = {
-  'https': 'https://{}:{}'.format(ip,port)
-}
+#telebot.apihelper.proxy = {
+#  'https': 'https://{}:{}'.format(ip,port)
+#}
 token = '768286581:AAF00PXpCi7YKlC_FjchUyAAB7ohQUEbS7w'
 bot = telebot.TeleBot(token)
 def description(message,file_id):
