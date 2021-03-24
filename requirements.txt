@@ -37,7 +37,7 @@ python-jsonrpc-server==0.0.1
 python-language-server==0.21.2
 pytz==2018.7
 requests==2.20.0
-rsa==4.0
+rsa==4.1
 service-identity==17.0.0
 six==1.11.0
 socks5==0.2.1
