@@ -31,7 +31,7 @@ pycparser==2.18
 pycryptodomex==3.7.0
 pygame==1.9.4
 pyOpenSSL==18.0.0
-PyPDF2==1.26.0
+PyPDF2==1.27.5
 pyTelegramBotAPI==3.6.6
 python-jsonrpc-server==0.0.1
 python-language-server==0.21.2
